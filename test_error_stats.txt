@@ -1,0 +1,10 @@
+Test Set Error Statistics
+==================================================
+
+P-wave MAE: 0.023 s
+P-wave STD: 0.127 s
+P-wave RMSE: 0.127 s
+
+S-wave MAE: 0.072 s
+S-wave STD: 0.293 s
+S-wave RMSE: 0.293 s
