@@ -1,0 +1,60 @@
+Network Code,Station Code,Longitude (WGS84),Latitude (WGS84),Affiliation,Archive,Location Description,Place,Elevation,Start Date,End Date,Station Type,Sensor Type
+TX,PECS,-103.86697,31.37045,Unavailable,TXHUB,,"Toyah, TX",914.0,2017-02-01,,TexNet Permanent,Broadband
+TX,PB07,-103.66793,31.57935,University of Texas,TexNet,,"Pecos, TX",856.0,2017-10-11,,TexNet Portable,Broadband
+TX,PB11,-104.03412,31.93553,Unavailable,TXHUB,,"NW of Orla, TX",915.0,2018-05-03,,TexNet Portable,Broadband
+TX,PB10,-103.754585,31.283607,Unavailable,TXHUB,,"Toyah, TX",858.0,2018-10-17,,TexNet Portable,Broadband
+TX,PB12,-103.9577,31.2133,,,,"Toyah, TX",1011.9,2018-11-13,,TexNet Portable,Broadband
+TX,PB09,-104.301444,31.774145,Unavailable,TXHUB,,"Orla, TX",1139.0,2019-05-22,,TexNet Portable,Broadband
+TX,PB13,-103.8458,31.5542,,,,"Northwest of Pecos, TX",956.1,2019-04-25,,TexNet Portable,Broadband
+TX,PB28,-104.50077,31.66864,Unavailable,TXHUB,,Culberson County,1204.0,2020-03-05,,TexNet Portable,Broadband
+TX,PB29,-104.514453,31.75299,Unavailable,TXHUB,,Culberson County,1242.0,2020-03-06,,TexNet Portable,Broadband
+TX,PB31,-104.030536,31.73226,Unavailable,TXHUB,,"Orla, TX",907.0,2020-05-21,,TexNet Portable,Broadband
+TX,PB33,-104.054045,31.534929,Texas Seismological Network,TXHUB,,"Pecos, TX",1006.0,2020-06-03,,TexNet Portable,Broadband
+TX,PB34,-104.037778,31.676667,Unavailable,TXHUB,,"Reeves, TX",969.3,2021-07-06,,TexNet Portable,Broadband
+TX,PB35,-104.43203,31.656187,Unavailable,TXHUB,,"Van Horn, TX",1224.0,2022-07-27,,TexNet Portable,Broadband
+TX,PB37,-104.528416,31.71847,Unavailable,TXHUB,,"Van Horn, TX",1263.0,2022-07-29,,TexNet Portable,Broadband
+TX,PB38,-104.426634,31.72972,Unavailable,TXHUB,,"Van Horn, TX",1240.0,2022-07-29,,TexNet Portable,Broadband
+TX,PB40,-103.9339588,31.6419935,Unavailable,TXHUB,,,935.0,2022-08-21,,TexNet Portable,Broadband
+TX,PB42,-103.640224,31.764578,,,,Loving,830.0,2022-09-08,,TexNet Portable,
+TX,PB43,-103.864872,31.680019,Unavailable,TXHUB,,"Reeves County, TX",896.0,2022-09-23,,TexNet Portable,Broadband
+TX,PB20,-104.06179,31.6281,,,,"Culberson County ,TX",1022.0,2022-07-10,,TexNet Portable,Broadband
+TX,PB23,-104.07276,31.66404,,,,"Culberson Count, Texas",1005.0,2022-07-10,,TexNet Portable,Broadband
+TX,PB24,-104.01776,31.61979,,,,"Reeves County, Texas",997.0,2022-07-11,,TexNet Portable,Broadband
+TX,PB25,-104.07019,31.58308,,,,"Culberson County, Texas",1037.0,2022-07-11,,TexNet Portable,Broadband
+TX,PB26,-104.12579,31.57819,,,,"Culberson County, Texas",1065.0,2022-07-10,,TexNet Portable,Broadband
+TX,PB36,-104.425899,31.680262,Unavailable,TXHUB,,"Van Horn, TX",1218.0,2022-07-27,,TexNet Portable,Broadband
+TX,PB44,-103.986965,31.92377,,,,"Angeles, TX",894.0,2023-03-08,,TexNet Portable,Broadband
+4O,CT01,-104.144532,31.90285,Coterra,,,,994.0,2022-02-25,,Non-TexNet,Broadband
+4O,CT02,-104.122493,31.95689,Coterra,,,,952.0,2022-02-25,,Non-TexNet,Broadband
+4O,WB03,-103.9688386,31.6107215,Waterbridge,,,,994.0,2022-05-10,,Non-TexNet,Broadband
+4O,WB02,-103.9449205,31.7363019,Waterbridge,,,,932.0,2022-05-10,,Non-TexNet,Broadband
+4O,WB04,-103.950319,31.530513,Waterbridge,,,,961.89,2022-08-26,,Non-TexNet,Broadband
+4O,WB05,-103.8329479,31.7537807,Waterbridge,,,,854.81,2022-08-26,,Non-TexNet,Broadband
+4O,WB06,-103.7187809,31.9975481,Waterbridge,Waterbridge,,"Loving Co., TX",950.93,2022-08-26,,Non-TexNet,Broadband
+4O,WB07,-103.8016616,31.99830925,Waterbridge,,,"Loving Co., TX",942.37,2022-08-26,,Non-TexNet,Broadband
+4O,WB08,-103.759894,31.96355,Waterbridge,,,"Loving Co., TX",928.58,2022-08-26,,Non-TexNet,Broadband
+4O,WB09,-103.8032847,31.96368917,Waterbridge,,,"Loving Co., TX",910.79,2022-08-26,,Non-TexNet,Broadband
+4O,WB10,-103.7218932,31.93042,,,,"Loving Co., TX",910.9,2022-08-26,,Non-TexNet,Broadband
+4O,WB11,-103.8004139,31.92770654,Waterbridge,,,"Loving Co., TX",905.0,2022-08-26,,Non-TexNet,Broadband
+4O,WB12,-103.7642735,31.898132,Waterbridge,,,"Loving Co., TX",886.0,2022-08-26,,Non-TexNet,Broadband
+4O,CV01,-104.0889,31.8504,Chevron,TXHUB,,"Orla, TX",983.0,2022-11-08,,Non-TexNet,Broadband
+4O,BP01,-103.8244,31.8409,BPX,TXHUB,,"East of Orla,  TX",806.0,2023-02-03,,Non-TexNet,Broadband
+GM,NMP01,-103.86048,32.20476,U.S. Geological Survey Networks (),,,New Mexico Permian - Site# 01,1048.0,2019-11-05,,Non-TexNet,Broadband
+GM,NMP02,-103.86139,32.08945,U.S. Geological Survey Networks (),,,New Mexico Permian - Site# 02,996.0,2019-11-05,,Non-TexNet,Broadband
+GM,NMP11,-103.93155,32.00668,U.S. Geological Survey Networks (),,,New Mexico Permian - Site# W1S1,882.7,2021-03-17,,Non-TexNet,Broadband
+GM,NMP12,-103.95259,32.12755,U.S. Geological Survey Networks (),,,New Mexico Permian - Site# W1S2,951.8,2021-03-17,,Non-TexNet,Broadband
+GM,NMP23,-103.802893,32.167112,U.S. Geological Survey Networks (),,,New Mexico Permian - Site# W2S3,1049.6,2021-06-02,,Non-TexNet,Broadband
+GM,NMP31,-103.73465,32.03585,U.S. Geological Survey Networks (),,,New Mexico Permian - Site# W3S1,972.8,2021-03-18,,Non-TexNet,Broadband
+TX,PB39,-104.060349,31.721691,Unavailable,TXHUB,,"Culberson, TX",950.0,2023-11-04,,TexNet Portable,Broadband
+TX,PB56,-103.8703449,31.8032778,,,,Reeves County,867.0,2024-03-20,,TexNet Portable,
+TX,PB55,-103.9381042,31.8028225,,,,Reeves County,913.0,2024-03-20,,TexNet Portable,
+TX,PB57,-103.965278,31.7692277,,,,Reeves County,919.0,2024-03-20,,TexNet Portable,
+TX,PB58,-103.932653,31.699787,,,,,895.0,2024-04-04,,TexNet Portable,
+TX,PB59,-104.81204,31.889954,,,,"Culberson, County",1705.0,2024-04-25,,TexNet Portable,
+4O,SA02,-104.2649,31.67163,"Saturn SWD, LLC",,,"West of Orla, TX",1127.5,2021-12-07,,Non-TexNet,Broadband
+4O,SA04,-104.25458,31.75593,"Saturn SWD, LLC",,,"West of Orla, TX",1092.1,2021-12-07,,Non-TexNet,Broadband
+4O,SA06,-104.14971,31.75696,"Saturn SWD, LLC",,,"West of Orla, TX",1048.2,2021-12-07,,Non-TexNet,Broadband
+4O,WW01,-103.90409,31.769723,Wes Water Holdings,,,,877.0,2024-09-17,,Non-TexNet,Broadband
+SC,GDL2,-104.363718,32.200748,,,,,1211.0,1999-01-01,,Non-TexNet,Broadband
+4O,SA01,-104.1021,31.7909,Saturn SWD LLC,,,,971.0,2025-05-03,,Non-TexNet,Broadband
+4O,WW02,-103.803452,31.682472,Wes Water Holdings,,,,869.0,2025-09-23,,Non-TexNet,Broadband

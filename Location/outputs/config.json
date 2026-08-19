@@ -1,0 +1,11 @@
+{
+  "longitude0": -104.2649,
+  "latitude0": 31.67163,
+  "maxradius_degree": 0.7,
+  "mindepth": 0,
+  "maxdepth": 30,
+  "starttime": "2026-01-01T00:00:00",
+  "endtime": "2026-01-31T00:00:00",
+  "network": "TX",
+  "channel": "HH*,BH*,EH*,HN*"
+}

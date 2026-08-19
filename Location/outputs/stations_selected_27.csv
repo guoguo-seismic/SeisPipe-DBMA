@@ -1,0 +1,28 @@
+Network Code,Station Code,Longitude (WGS84),Latitude (WGS84),Affiliation,Archive,Location Description,Place,Elevation,Start Date,End Date,Station Type,Sensor Type,prefix
+GM,NMP31,-103.73465,32.03585,U.S. Geological Survey Networks (),,,New Mexico Permian - Site# W3S1,972.8,2021-03-18,,Non-TexNet,Broadband,NM
+TX,PB09,-104.301444,31.774145,Unavailable,TXHUB,,"Orla, TX",1139.0,2019-05-22,,TexNet Portable,Broadband,PB
+TX,PB11,-104.03412,31.93553,Unavailable,TXHUB,,"NW of Orla, TX",915.0,2018-05-03,,TexNet Portable,Broadband,PB
+TX,PB13,-103.8458,31.5542,,,,"Northwest of Pecos, TX",956.1,2019-04-25,,TexNet Portable,Broadband,PB
+TX,PB20,-104.06179,31.6281,,,,"Culberson County ,TX",1022.0,2022-07-10,,TexNet Portable,Broadband,PB
+TX,PB23,-104.07276,31.66404,,,,"Culberson Count, Texas",1005.0,2022-07-10,,TexNet Portable,Broadband,PB
+TX,PB24,-104.01776,31.61979,,,,"Reeves County, Texas",997.0,2022-07-11,,TexNet Portable,Broadband,PB
+TX,PB26,-104.12579,31.57819,,,,"Culberson County, Texas",1065.0,2022-07-10,,TexNet Portable,Broadband,PB
+TX,PB28,-104.50077,31.66864,Unavailable,TXHUB,,Culberson County,1204.0,2020-03-05,,TexNet Portable,Broadband,PB
+TX,PB29,-104.514453,31.75299,Unavailable,TXHUB,,Culberson County,1242.0,2020-03-06,,TexNet Portable,Broadband,PB
+TX,PB33,-104.054045,31.534929,Texas Seismological Network,TXHUB,,"Pecos, TX",1006.0,2020-06-03,,TexNet Portable,Broadband,PB
+TX,PB34,-104.037778,31.676667,Unavailable,TXHUB,,"Reeves, TX",969.3,2021-07-06,,TexNet Portable,Broadband,PB
+TX,PB35,-104.43203,31.656187,Unavailable,TXHUB,,"Van Horn, TX",1224.0,2022-07-27,,TexNet Portable,Broadband,PB
+TX,PB36,-104.425899,31.680262,Unavailable,TXHUB,,"Van Horn, TX",1218.0,2022-07-27,,TexNet Portable,Broadband,PB
+TX,PB38,-104.426634,31.72972,Unavailable,TXHUB,,"Van Horn, TX",1240.0,2022-07-29,,TexNet Portable,Broadband,PB
+TX,PB39,-104.060349,31.721691,Unavailable,TXHUB,,"Culberson, TX",950.0,2023-11-04,,TexNet Portable,Broadband,PB
+TX,PB40,-103.9339588,31.6419935,Unavailable,TXHUB,,,935.0,2022-08-21,,TexNet Portable,Broadband,PB
+TX,PB43,-103.864872,31.680019,Unavailable,TXHUB,,"Reeves County, TX",896.0,2022-09-23,,TexNet Portable,Broadband,PB
+4O,SA01,-104.1021,31.7909,Saturn SWD LLC,,,,971.0,2025-05-03,,Non-TexNet,Broadband,SA
+4O,SA02,-104.2649,31.67163,"Saturn SWD, LLC",,,"West of Orla, TX",1127.5,2021-12-07,,Non-TexNet,Broadband,SA
+4O,SA04,-104.25458,31.75593,"Saturn SWD, LLC",,,"West of Orla, TX",1092.1,2021-12-07,,Non-TexNet,Broadband,SA
+4O,SA06,-104.14971,31.75696,"Saturn SWD, LLC",,,"West of Orla, TX",1048.2,2021-12-07,,Non-TexNet,Broadband,SA
+4O,WB02,-103.9449205,31.7363019,Waterbridge,,,,932.0,2022-05-10,,Non-TexNet,Broadband,WB
+4O,WB03,-103.9688386,31.6107215,Waterbridge,,,,994.0,2022-05-10,,Non-TexNet,Broadband,WB
+4O,WB05,-103.8329479,31.7537807,Waterbridge,,,,854.81,2022-08-26,,Non-TexNet,Broadband,WB
+4O,WB07,-103.8016616,31.99830925,Waterbridge,,,"Loving Co., TX",942.37,2022-08-26,,Non-TexNet,Broadband,WB
+4O,WB09,-103.8032847,31.96368917,Waterbridge,,,"Loving Co., TX",910.79,2022-08-26,,Non-TexNet,Broadband,WB
