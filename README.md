@@ -24,14 +24,13 @@ The pipeline is tailored for the **TexNet** dataset but can be adapted to other 
 ---
 
 ## 🚀 Features
-
-- ✅ **Automatic resampling** of continuous waveforms to a target sampling rate (e.g., 100 Hz).
-- ✅ **DBMANet phase picking** with configurable thresholds for P and S waves.
-- ✅ **Standardized pick format** for compatibility with GaMMA.
-- ✅ **GaMMA association** with automatic DBSCAN‑based event clustering and 1D velocity model support.
-- ✅ **ADLoc precise location** with 2D Eikonal travel‑time calculation and iterative station‑term corrections.
-- ✅ **Visualization tools** for epicenter maps, depth histograms, pick distribution, and catalog comparison.
-- ✅ **Modular design** – each step can be run independently.
+- ✅ Pre‑trained **DBMANet** phase picker (Dilated Convolution + Bidirectional Mamba) with configurable P/S picking thresholds
+- ✅ Automatic waveform resampling (e.g. 100 Hz) integrated within picking workflow
+- ✅ Standardized phase‑pick output compatible with GaMMA associator
+- ✅ GaMMA phase association: DBSCAN‑based clustering, supports 1‑D velocity model
+- ✅ ADLoc precise relocation: 2‑D Eikonal solver + iterative SST station‑term corrections
+- ✅ Visualization tools: epicenter map, depth histogram, pick statistics, reference‑catalog comparison plots
+- ✅ Jupyter‑notebook‑based sequential workflow with clear data dependency between processing stages
 
 ---
 
