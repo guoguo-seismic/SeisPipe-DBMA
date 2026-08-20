@@ -1,4 +1,3 @@
-```markdown
 # SeisPipe-DBMA
 **Seismic Processing Pipeline with DBMANet, GaMMA & ADLoc**
 A modular workflow for automatic phase picking, association, and location of microseismic and local earthquakes.
@@ -64,7 +63,6 @@ The pipeline is tailored for the **TexNet** dataset but can be adapted to other 
 ```bash
 git clone https://github.com/guoguo-seismic/SeisPipe-DBMA.git
 cd SeisPipe-DBMA
-```
 
 ### Set up a conda environment (recommended)
 ```bash
