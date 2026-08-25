@@ -47,16 +47,16 @@ The pipeline is tailored for the **TexNet** dataset but can be adapted to other 
 - Complete end‑to‑end workflow is implemented in Jupyter notebooks under the `location/` folder.
 
 ### Contents included / not included in repo
-✅Pre‑trained DBMANet weights: `model_best.pt`
-✅`config.json` configuration template for GaMMA & ADLoc
-❌ Raw STEAD hdf5 dataset
-❌ Example MiniSEED continuous waveform files
+- ✅Pre‑trained DBMANet weights: `model_best.pt`
+- ✅`config.json` configuration template for GaMMA & ADLoc
+- ❌ Raw STEAD hdf5 dataset
+- ❌ Example MiniSEED continuous waveform files
 
 > ⚠️ Warning: The phase‑picking function will **in‑place overwrite original MiniSEED waveform files** under `local/texnet/waveforms_27/` after resampling to 100 Hz. Please keep backup of raw waveform data!
 
 ---
 
-## 📦 Installation
+##  Installation
 
 ### Clone the repository
 ```bash
