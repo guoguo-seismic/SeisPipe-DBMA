@@ -1,0 +1,41 @@
+# ================================================================
+# DBMANet + TexNet Earthquake Location Workflow Dependencies
+# Python 3.11 | CUDA 12.9 | Generated 2026-08-25
+# ================================================================
+# Recommended installation order:
+#   1. PyTorch (CUDA 12.9)
+#   2. mamba-ssm + causal-conv1d (must match PyTorch/CUDA version)
+#   3. All remaining packages
+# ================================================================
+
+# ---------- Core Scientific Computing ----------
+numpy==2.4.3
+pandas==3.0.2
+scipy==1.17.1
+
+# ---------- Seismic Data Processing ----------
+obspy==1.5.0
+
+# ---------- Deep Learning (DBMANet Inference) ----------
+# PyTorch 2.10.0 + CUDA 12.9, must be installed from the official index:
+#   pip install torch==2.10.0 --index-url https://download.pytorch.org/whl/cu129
+torch==2.10.0
+# mamba-ssm depends on causal-conv1d; both must match PyTorch 2.10 + CUDA 12.9.
+# Pre-built wheels are strongly recommended over source compilation:
+#   pip install mamba-ssm==2.3.1 causal-conv1d==1.6.1.post4
+mamba-ssm==2.3.1
+causal-conv1d==1.6.1.post4
+
+# ---------- Phase Association & Location ----------
+gmma==1.2.17
+adloc==1.0.3
+
+# ---------- Coordinate Projection ----------
+pyproj==3.7.2
+
+# ---------- Visualization ----------
+matplotlib==3.10.9
+cartopy==0.25.0
+
+# ---------- Utilities ----------
+tqdm==4.67.3
