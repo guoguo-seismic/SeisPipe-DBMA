@@ -114,6 +114,9 @@ pip install -r requirements.txt
    - Use GaMMA to associate picks into events, using generated `local/texnet/config.json`.
    - Requires station geometry and a 1D velocity model.
    - Outputs event catalog and associated picks.
+   <p align="center">
+     <img src="Location/pictures/step3.png" width="800">
+   </p>
 
 5. **Precise Location (ADLoc)**
    - Relocate events using the 2D Eikonal travel‑time solver with `config.json`.
