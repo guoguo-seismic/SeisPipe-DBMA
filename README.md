@@ -7,7 +7,7 @@ A modular workflow for automatic phase picking, association, and location of mic
 
 ---
 
-## 📌 Overview
+##  Overview
 
 **SeisPipe‑DBMA** is an end‑to‑end earthquake location pipeline designed for dense seismic networks. It integrates:
 
@@ -23,18 +23,18 @@ The pipeline is tailored for the **TexNet** dataset but can be adapted to other 
 
 ---
 
-## 🚀 Features
-- ✅ Pre‑trained **DBMANet** phase picker (Dilated Convolution + Bidirectional Mamba) with configurable P/S picking thresholds
-- ✅ Automatic waveform resampling (e.g. 100 Hz) integrated within picking workflow
-- ✅ Standardized phase‑pick output compatible with GaMMA associator
-- ✅ GaMMA phase association: DBSCAN‑based clustering, supports 1‑D velocity model
-- ✅ ADLoc precise relocation: 2‑D Eikonal solver + iterative SST station‑term corrections
-- ✅ Visualization tools: epicenter map, depth histogram, pick statistics, reference‑catalog comparison plots
-- ✅ Jupyter‑notebook‑based sequential workflow with clear data dependency between processing stages
+##  Features
+-  Pre‑trained **DBMANet** phase picker (Dilated Convolution + Bidirectional Mamba) with configurable P/S picking thresholds
+-  Automatic waveform resampling (e.g. 100 Hz) integrated within picking workflow
+-  Standardized phase‑pick output compatible with GaMMA associator
+-  GaMMA phase association: DBSCAN‑based clustering, supports 1‑D velocity model
+-  ADLoc precise relocation: 2‑D Eikonal solver + iterative SST station‑term corrections
+-  Visualization tools: epicenter map, depth histogram, pick statistics, reference‑catalog comparison plots
+-  Jupyter‑notebook‑based sequential workflow with clear data dependency between processing stages
 
 ---
 
-## 📂 Data Notice
+##  Data Notice
 
 ### DBMANet Training with STEAD dataset
 - The `DBMANet/` folder contains **only model definition and training scripts**, no raw waveform data.
@@ -47,8 +47,8 @@ The pipeline is tailored for the **TexNet** dataset but can be adapted to other 
 - Complete end‑to‑end workflow is implemented in Jupyter notebooks under the `location/` folder.
 
 ### Contents included / not included in repo
-✅ Pre‑trained DBMANet weights: `model_best.pt`
-✅ `config.json` configuration template for GaMMA & ADLoc
+✅Pre‑trained DBMANet weights: `model_best.pt`
+✅`config.json` configuration template for GaMMA & ADLoc
 ❌ Raw STEAD hdf5 dataset
 ❌ Example MiniSEED continuous waveform files
 
@@ -88,9 +88,9 @@ pip install -r requirements.txt
 
 ---
 
-## 🧩 Pipeline Steps
+##  Pipeline Steps
 
-> ⚠️ Before running: Prepare your waveform data, refer to **📂 Data Notice**.
+> ⚠️ Before running: Prepare your waveform data, refer to ** Data Notice**.
 > The whole workflow is operated via Jupyter notebooks inside the `location/` directory.
 > Execute notebooks **in the following order**:
 > 1. `prepare_data.ipynb` : Filter catalog & stations, download MiniSEED continuous waveform data.
@@ -125,7 +125,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🚀 Quick Start (Notebook‑based Workflow)
+##  Quick Start (Notebook‑based Workflow)
 > This project does **not provide importable python package**.
 > Please launch jupyter and run notebooks in `location/` folder sequentially.
 > All python scripts / jupyter notebooks **must be executed under repository root directory** (same level as `local` folder and `model_best.pt`).
@@ -143,7 +143,7 @@ All intermediate results and figures will be automatically generated inside `loc
 
 ---
 
-## 📁 Input Data Format
+##  Input Data Format
 > Initial input files for prepare_data.ipynb:
 - **Waveforms**: MiniSEED files organized as `YEAR/DOY/NET.STA.LOC.CHAN.mseed` (prepared by `prepare_data.ipynb`)
 - **Station file**: CSV with columns: `Network Code`, `Station Code`, `Longitude (WGS84)`, `Latitude (WGS84)`, `Elevation`
@@ -157,7 +157,7 @@ After running `prepare_data.ipynb`, generated inputs for workflow.ipynb:
 
 ---
 
-## 📊 Outputs
+##  Outputs
 > All outputs are generated under the `local/texnet/` directory by default.
 
 | Step | Output Files |
@@ -173,7 +173,7 @@ After running `prepare_data.ipynb`, generated inputs for workflow.ipynb:
 
 ---
 
-## 🧠 DBMANet Model
+##  DBMANet Model
 DBMANet is a hybrid network combining:
 - **Dilated Convolutional Blocks** for multi‑scale feature extraction.
 - **Bidirectional Mamba** for long‑range temporal dependency modeling.
@@ -186,35 +186,32 @@ Pre‑trained weight file `model_best.pt` is included in this repository.
 
 ---
 
-## 📖 Citation
+##  Citation
 
 If you use this pipeline in your research, please cite the following:
 
 - **DBMANet**: Fu, C., Guo, K., Liu, J., Zhang, P., Xu, X. *A deep learning package for generalized passive seismic data analysis and event detection*
-- **GaMMA**: Zhu, W., McBrearty, I. W., Mousavi, S. M., Ellsworth, W. L., & Beroza, G. C. (2022). *Earthquake phase association using a Bayesian Gaussian Mixture Model‑based Associator for Microseismic Monitoring*, arXiv:2109.09008
+- **GaMMA**: Zhu, W., McBrearty, I. W., Mousavi, S. M., Ellsworth, W. L., & Beroza, G. C. (2022). *Earthquake phase association using a Bayesian Gaussian mixture model*, Journal of Geophysical Research: Solid Earth, 127(5), e2021JB023249
 - **ADLoc**: Zhu, W., Rong, B., Jie, Y., & Wei, S. S. (2025). *Robust Earthquake Location using Random Sample Consensus (RANSAC)*, arXiv:2502.10933
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request.
 
 ---
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 🙏 Acknowledgements
+##  Acknowledgements
 
 - TexNet for providing the waveform and station data.
 - TXED project for the Texas 1‑D velocity model (https://github.com/aaspip/txed).
 - The developers of Obspy, PyTorch, Mamba, GaMMA, and ADLoc.
 
 ---
-
-**Happy seismic processing!** 🌍🔍
-```
