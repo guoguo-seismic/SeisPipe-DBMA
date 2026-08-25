@@ -119,6 +119,9 @@ pip install -r requirements.txt
    - Relocate events using the 2D Eikonal travel‑time solver with `config.json`.
    - Iteratively estimate station terms.
    - Produce final event locations with residuals.
+   - <p align="center">
+     <img src="pictures/step4.png" width="800" alt="ADLoc precise location">
+   </p>
 
 6. **Visualization & Quality Control**
    - Plot epicenter maps, depth histograms, pick distribution, and comparison with reference catalogs.
