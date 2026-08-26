@@ -101,11 +101,16 @@ pip install -r requirements.txt
    - Perform time‑space filtering for events and stations.
    - Download MiniSEED waveforms from IRIS, output under `local/texnet/waveforms_27/`.
    - Generate filtered station, event files and project config json.
-
+    <p align="center">
+     <img src="Location/pictures/step1.png" width="800">
+   </p>
 2. **Phase Picking (DBMANet)**
    - Load the provided pre‑trained weight file `model_best.pt`.
    - Slide a window over continuous waveforms, output P/S probability curves.
    - Extract picks above user‑defined thresholds.
+   -     <p align="center">
+     <img src="Location/pictures/step2.png" width="800">
+   </p>
 
 3. **Pick Standardization**
    - Convert DBMANet output to a standard format (`station_id`, `phase_time`, `phase_type`, `phase_score`).
