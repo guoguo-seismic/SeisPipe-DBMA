@@ -108,7 +108,7 @@ pip install -r requirements.txt
    - Load the provided pre‑trained weight file `model_best.pt`.
    - Slide a window over continuous waveforms, output P/S probability curves.
    - Extract picks above user‑defined thresholds.
-   -     <p align="center">
+   <p align="center">
      <img src="Location/pictures/step2.png" width="800">
    </p>
 
